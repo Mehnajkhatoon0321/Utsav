@@ -18,9 +18,18 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
+
+      themeMode: ThemeMode.system,
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.pink,
+
+        visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
+      darkTheme: ThemeData(
+        primarySwatch:Colors.pink,
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+      ),
+
       home: const splashscreen(),
     );
   }

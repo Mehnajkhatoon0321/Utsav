@@ -19,6 +19,24 @@ class  Stylestext{
     color: Colors.black,
     fontWeight: FontWeight.w400,
   );
+  static const hint = TextStyle(
+    fontSize: 17,
+    color: Color(0xff9A9A9A),
+    fontWeight: FontWeight.w400,
+  );
+  static const heading = TextStyle(
+    fontSize: 27,
+    color: Colors.black,
+    fontWeight: FontWeight.w500,
+  );
+  static const logmainhead = TextStyle(
+    fontSize: 14,
+    color: Colors.black,
+    fontWeight: FontWeight.w500,
+  );
+  static const button = TextStyle(
+      color:Color(0xffEB2290)
 
+  );
 
 }

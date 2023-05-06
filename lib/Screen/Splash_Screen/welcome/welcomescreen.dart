@@ -29,7 +29,7 @@ class _welcomesState extends State<welcomes> {
 
           children: [
         SizedBox(
-        height: height * 0.060,
+        height: height * 0.040,
       ),
         Align(
             alignment: Alignment.topCenter,
@@ -106,13 +106,13 @@ class _welcomesState extends State<welcomes> {
                       ),
                     ),
                     const Padding(
-                      padding: EdgeInsets.fromLTRB(30, 10, 10, 10),
+                      padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                       child: Text(
                         "Continue with Google",
                         style: TextStyle(
                             fontSize: 17,
                             color: Colors.black,
-                            fontWeight: FontWeight.w400),
+                            fontWeight: FontWeight.w400),textAlign: TextAlign.left
                       ),
                     ),
                   ],
@@ -141,13 +141,13 @@ class _welcomesState extends State<welcomes> {
                       ),
                     ),
                     const Padding(
-                      padding: EdgeInsets.fromLTRB(30, 10, 10, 10),
+                      padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                       child: Text(
                         "Continue with Facebook",
                         style: TextStyle(
                             fontSize: 17,
                             color: Colors.black,
-                            fontWeight: FontWeight.w400),
+                            fontWeight: FontWeight.w400),textAlign: TextAlign.left
                       ),
                     ),
                   ],
@@ -210,13 +210,13 @@ class _welcomesState extends State<welcomes> {
 
               },
                     child: Padding(
-                      padding: EdgeInsets.fromLTRB(30, 10, 10, 10),
+                      padding: EdgeInsets.fromLTRB(10, 10, 10, 10),
                       child: Text(
                         "Continue with Email",
                         style: TextStyle(
                             fontSize: 17,
                             color: Colors.black,
-                            fontWeight: FontWeight.w400),
+                            fontWeight: FontWeight.w400),textAlign: TextAlign.left
                       ),
                     ),
 
@@ -226,7 +226,8 @@ class _welcomesState extends State<welcomes> {
             ),
             SizedBox(
               height: height * 0.010,
-            ),  TextButton(
+            ),
+            TextButton(
                 onPressed: () {
                   Navigator.push(
                       context,
@@ -250,7 +251,10 @@ class _welcomesState extends State<welcomes> {
                     textAlign: TextAlign.center),
               ),
             ),
-            )
+            ),
+            SizedBox(
+              height: height * 0.040,
+            ),
       ])
      ] ),
     )

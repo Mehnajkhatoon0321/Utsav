@@ -7,6 +7,7 @@ class Appcolors{
   static const Color graylight=Color(0xffB9B9B9);
   static const Color white=Color(0xffD9D9D9);
   static const Color hint=Color(0xffA8A5A5);
+  static const Color star=Color(0xffCF3D3D);
 
 
 

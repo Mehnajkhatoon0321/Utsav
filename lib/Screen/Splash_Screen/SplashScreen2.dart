@@ -41,8 +41,8 @@ class _Splash_secondState extends State<Splash_second> {
                                   flex: 7,
                                   child: Image.asset(
                                    "assets/images/splash.png",
-                                    height: size.height * 0.080,
-                                    width: size.width * 0.080,
+                                    width: 97,
+                                    height: 90,
                                   ),
                                 ),
                                 Padding(
