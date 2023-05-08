@@ -23,6 +23,7 @@ class _ResetState extends State<Reset> {
   void initState() {
     super.initState();
     passvisible = true;
+    passvisi = true;
   }
   @override
   Widget build(BuildContext context) {
@@ -49,7 +50,8 @@ class _ResetState extends State<Reset> {
             backgroundColor: Colors.white,
             body: Padding(
                 padding: const EdgeInsets.all(12.0),
-                child: ListView(children: <Widget>[
+                child: ListView(
+                    children: <Widget>[
                   Padding(
                     // padding: const EdgeInsets.all(20.0),
                     padding: const EdgeInsets.fromLTRB(0, 50, 0, 0),

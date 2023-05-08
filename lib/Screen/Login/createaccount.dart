@@ -26,6 +26,11 @@ class _CreateaccountState extends State<Createaccount> {
   bool  passvisible = false;
 
   var isLoading = false;
+  @override
+  void initState() {
+    passvisible=true;
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {

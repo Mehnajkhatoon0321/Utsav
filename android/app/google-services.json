@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "106203944534",
+    "project_id": "utsav-fashion-c517f",
+    "storage_bucket": "utsav-fashion-c517f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106203944534:android:fd4b927782ae563f524df7",
+        "android_client_info": {
+          "package_name": "com.example.utsavfashion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106203944534-7g97ibgsr70ql3qvhhg20n9ich9tfb2d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbM1k-0-7xzRBx-pXwAbUOV-RlhjpHFw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106203944534-7g97ibgsr70ql3qvhhg20n9ich9tfb2d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

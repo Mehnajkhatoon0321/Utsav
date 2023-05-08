@@ -17,7 +17,7 @@ class  Stylestext{
   static const text = TextStyle(
     fontSize: 16,
     color: Colors.black,
-    fontWeight: FontWeight.w400,
+    fontWeight: FontWeight.w600,
   );
   static const hint = TextStyle(
     fontSize: 17,
